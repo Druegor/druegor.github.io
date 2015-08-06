@@ -1,7 +1,6 @@
 ---
 layout: post
 title: First Post Again
-excerpt_separator: <!--more-->
 ---
 
 Silent much!?

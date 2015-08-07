@@ -3,8 +3,6 @@ layout: post
 title: Finishing up a few more features
 ---
 
-More features in the bag
-===
 Today I managed to wrap up what I considered to be a few of the missing features.  I wanted to lock down the specifics on how the bot would know which user to run as and log in as if someone wanted to us that option.
 
 <!--more-->

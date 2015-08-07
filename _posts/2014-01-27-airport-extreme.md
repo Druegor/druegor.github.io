@@ -3,8 +3,6 @@ layout: post
 title: AirPort Extreme Experience
 ---
 
-My experience with the apple extreme
-===
 It has been a while since I was completely anti-apple.  During the nineties when the only machines I could use were the Power-PC mac clones in school I was supremely pissed with the quality of the product.  The first introduction of the iMac and its bubble case with its ridiculous colors didn't inspire any more confidence any me.  However, after the third generation of the iPhone and multiple iterations of their pro series laptops I finally decided that the quality may have reached the level their cost.  Since then I've gone through multiple iPhones with mixed feelings and three laptops.  After using these products and my lack of success with different high end models of wireless routers I decided to try out the airport extreme.
 
 <!--more-->

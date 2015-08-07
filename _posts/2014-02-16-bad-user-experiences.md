@@ -3,8 +3,6 @@ layout: post
 title: The too rushed effect
 ---
 
-Bad User Experiences
-===
 I want to apologize for some of the bad user experiences that you guys have had using my bots thus far.  As I mentioned I wrote this in a little under five days while working full time.  So my quality control in a few areas is somewhat lacking.
 
 <!--more-->

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Learning how to deal with update day
+---
+
+I guess I had wanted to figure out how to handle downtimes and the EULA screen so today's work was a good thing.  However, my first pass at the EULA screen caused the application to shut down.  It did agree but something else happened.  I think I tried to read the screen mid click while pressing the agree button.
+
+<!--more>
+
+I also implemented a basic waiting / retry for logging into the server.  However, after I finally got logged in I discovered that WotC in a show of progressive coding has actually provided an API endpoint that lets me know if the server is available.  I found this while looking at their online website to see the server status.  So I don't have to try and login then sleep on it for a while.  Now I can just poll the service every little bit and login after it comes back online.  Of course if the bot gets a little bigger I'm going to have to route this traffic through my own server so I don't spam hundreds or thousands of calls a second to their server.  Wouldn't want them to get mad at me for something that ridiculous.  So I will have to store the value on my server and allow people to ping my server hundreds of times a second and I'll just update once a second myself.  I doubt they will mind me pinging their status API once a second.  It wouldn't be much of an API if they cared about that frequency.
+
+Unfortunately with every release I feel like they change the colors or some feature that cause my bot to malfunction when I'm trying to get everything to run smoothly.  I'm just glad that they still have the small window in the bottom that shows when a user submits the trade and that the program sends a sound command when the trade is started/ended so I can use these windows based change events to kick start my program instead of just continually polling the screen to see if anything changed like I did with my last bot.  I did have to slow down some of the functionality because I wasn't reliably getting the results I was expecting.  So now I limit the number of cards I read from the screen and the scrolling that I have to do to shave off the time I lost by slowing things down.
+
+I have started the process of doing the automated transfer bot.  It is currently setup to just move cards based on a bot priority.  Trying to spread four versions of each card out to each bot.  However, I want to setup a few bulk sell bots and for these I need to move cards over that will make me a profit.  I'm not sure the best way to do that along with keeping my other bots stocked.  Maybe I'll have to designate one bot to be stocked and then the others get stocked based on product they need for what they are trying to do.  Buy bots get tickets, sell bots get cards of the appropriate sell value.  So on and so forth.  I'll have to look into that more as it progresses.

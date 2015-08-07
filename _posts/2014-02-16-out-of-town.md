@@ -3,8 +3,6 @@ layout: post
 title: Mexico Bound
 ---
 
-Out of town for a few days
-===
 I have to leave town for a few days to do some goodwill work in another country.  So I've decided I'll just leave my bots online and let them either run out of money or cause the client to crash.
 
 <!--more-->

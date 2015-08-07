@@ -1,10 +1,7 @@
 ---
 layout: post
-title: First Post Again
+title: Silent much!?
 ---
-
-Silent much!?
-==
 
 I've been a little off the radar for a while in regards to my automated bot project.  I've decided to put up what I worked on in [Github][1] with the hopes that someone else can improve upon my initial code.  Also it seems like a bit of a waste to spend a lot of time on this project and then not have anything to show for it.  
 

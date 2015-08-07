@@ -3,8 +3,6 @@ layout: post
 title: MTGO Trade Bot Beta release almost ready
 ---
 
-Lots of new features added and existing bugs resolved
-===
 So I'm not quite sure where I left off before I left for Mexico and what I've gotten done since I got back.  But I've added some key new features for sure.
 
 <!--more-->

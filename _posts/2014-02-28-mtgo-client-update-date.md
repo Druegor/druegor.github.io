@@ -5,7 +5,7 @@ title: Learning how to deal with update day
 
 I guess I had wanted to figure out how to handle downtimes and the EULA screen so today's work was a good thing.  However, my first pass at the EULA screen caused the application to shut down.  It did agree but something else happened.  I think I tried to read the screen mid click while pressing the agree button.
 
-<!--more>
+<!--more-->
 
 I also implemented a basic waiting / retry for logging into the server.  However, after I finally got logged in I discovered that WotC in a show of progressive coding has actually provided an API endpoint that lets me know if the server is available.  I found this while looking at their online website to see the server status.  So I don't have to try and login then sleep on it for a while.  Now I can just poll the service every little bit and login after it comes back online.  Of course if the bot gets a little bigger I'm going to have to route this traffic through my own server so I don't spam hundreds or thousands of calls a second to their server.  Wouldn't want them to get mad at me for something that ridiculous.  So I will have to store the value on my server and allow people to ping my server hundreds of times a second and I'll just update once a second myself.  I doubt they will mind me pinging their status API once a second.  It wouldn't be much of an API if they cared about that frequency.
 

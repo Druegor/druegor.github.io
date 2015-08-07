@@ -10,4 +10,4 @@ permalink: /about/
 
 ### Contact me
 
-[email@domain.com](mailto:JamesElgee@gmail.com)
+[JamesElgee@gmail.com](mailto:JamesElgee@gmail.com)
